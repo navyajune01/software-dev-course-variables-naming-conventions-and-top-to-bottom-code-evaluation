@@ -24,9 +24,22 @@ Things to reflect on:
   
 */
 
+/* 
 let a = "Alice";
 let b = 5;
 let c = 20;
 let d = a + " bought " + b + " items for $" + c + ".";
 
 console.log(d);
+*/
+
+let customerName = "Alice";
+let itemName = "notebooks";
+let numberOfItems = 5;
+let pricePerItem = 4;
+let totalCost = numberOfItems * pricePerItem;
+
+let purchaseSummary = customerName + " bought " + numberOfItems + " " + itemName +
+                      " for $" + totalCost + ". Each " + itemName + " cost $" + pricePerItem + ".";
+
+console.log(purchaseSummary);
